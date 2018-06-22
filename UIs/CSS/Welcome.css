@@ -1,0 +1,54 @@
+
+ul {
+    list-style-type: none;
+    margin: 30;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(103, 103, 231);
+}
+
+#nav {
+    float: right;
+    font-size: 20px;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(72, 24, 185);
+}
+
+.active {
+    background-color: rgb(103, 103, 231);
+
+}
+#home{
+    float: left;
+    font-family: cursive;
+    font-size: 35px;
+
+}
+body{
+    background: rgb(103, 103, 231);
+}
+
+#welcome-message {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin: 150px 200px 200px 300px;
+color: beige;
+
+}
+#tagline{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin: 0px 200px 300px 500px;
+color: beige;
+}
