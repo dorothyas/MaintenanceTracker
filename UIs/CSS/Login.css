@@ -1,33 +1,64 @@
-body {
-    background: rgb(103, 103, 231);
-    font-family: sans-serif;
-    width: 100%;
-    margin: 20px 20px 10px 20px;
-    text-align: center; 
+/*entire navigation bar*/
+.navbar {
+    list-style-type: none;
+    padding: 1px 0px 10px 20px;
+    overflow: hidden;
 }
-h1 {
-    font-size: 2.5em;
-    color: #a80707;
-    text-align: center;
+/*for all navigation bar texts apart from the active*/
+#nav {
+    float: right;
+    font-size: 20px;
     font-family: cursive;
+}
+/*each of the texts in navigation bar*/
+li a {
+    display: block;
+    color:#D0C5F9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 
 }
+/*color changes when cursor moves over the navigation bar texts except the active*/
+li :hover:not(.active) {
+    background-color: rgb(72, 24, 185);
+}
+
+/*the Mtracker in navigation bar*/
+#home{
+    float: left;
+    font-family: cursive;
+    font-size: 30px;
+}
+/*highlighting currently active page*/
+.active {
+        background-color: rgb(31, 121, 173);
+    
+    }
+/*entire body*/
+body {
+    background: #210A76;
+    font-family: cursive;
+    text-align: center; 
+}
+/*for the login form*/
 .box {
-    background: ivory;
-    margin: 5% auto;
-    width: 400px;
-    border-radius: 10px;
-    padding: 10px 10px 40px 10px; 
+    color: #D0C5F9;
+    margin: 50px 50px 50px 450px;
+    width: 500px;
+    border-radius: 3px;
+    padding: 5px 20px 40px 10px; 
 }
 input {
     background: gainsboro;
-    margin-bottom: 10px;
+    margin:30px 20px 10px 5px;
     padding:20px;
     width:100%;
     border:grey 1px solid;
     font-size: 1em;
 
  }
+ /*submit button*/
  button {
      margin-top: 20px;
      padding: 10px;
@@ -35,15 +66,12 @@ input {
      width: 50%;
      color: aliceblue;
      font-size: large;
+     font-family: cursive;
  }
- label {
-     font-size:larger;
-     padding: 10px;
-     margin: 20px;
-     width: 100%;
-    
- }
+ /*for the small intro*/
  #desc {
      font-family: cursive;
      font-size: 20px;
+     padding: 5px 0px 0px 0px ;
+     color:beige;
  }
