@@ -1,14 +1,21 @@
 <DOCTYPE! html><html>
 <title>Sign up- MTracker</title>
 <head>
-        <link 
-    rel="stylesheet" href="../CSS/Sign Up.css">
-    </head>
-    <h1>Welcome To MTracker</h1>
-    <p>
-         MTracker helps you make repair and maintenance requests for the equipment in your departments.
-            </p>
+<!--link to css-->
+    <link rel="stylesheet" href="../CSS/SignUp.css">
+</head>
 <body>
+ <!--navigation bar-->
+    <div class="navbar">
+        <li id="home"><a href="#home">MTracker</a></li>
+        <li id="nav"><a href="#help">Help</a></li>
+        <li id="nav"><a href="#login">Login</a></li>
+        <li id="nav"><a class="active" href="#signup">Sign Up</a></li>
+    </div>
+    <p>
+        MTracker helps you make repair and maintenance requests for the equipment in your departments.
+   </p>
+   <!--the sign up form-->
     <h2>Register</h2>          
 <form id='register-form' action='method'>
     <input type="text" placeholder="First name" required>
@@ -17,7 +24,8 @@
     <input type="password"placeholder="Password" required>
     <input type="password"placeholder="Re-enter password" required>
     <button type='submit'>Sign Up</button>
-    <label><p>Already have an account?<a href="#"> Sign In!</a></p></label>
-</form><p>
+</form>   
+<label>Already have an account?<a href="#">Sign In!</a></label>
+
 </body>        
-</html>
+</html> 
