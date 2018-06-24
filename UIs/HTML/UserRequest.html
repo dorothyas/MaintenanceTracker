@@ -2,10 +2,11 @@
     <title>Request-MTracker
 </title>
 <head>
-    <link 
-rel="stylesheet" href="../CSS/UserRequest.css">
+  <!--link to css file-->
+  <link rel="stylesheet" href="../CSS/UserRequest.css">
 </head>
 <body>
+  <!--navigation bar-->
   <ul>
     <li id="home"><a href="#">Mtracker</a></li>
     <li id="nav"><a href="#">Sign Out</a></li>
@@ -13,22 +14,23 @@ rel="stylesheet" href="../CSS/UserRequest.css">
     <li id="nav"><a href="#">My Account</a></li>
     <li id="nav"><a class="active" href="#">Make a Request</a></li>
 </ul>
-
-    <div id = "container">
-      <form action="url" id="request">
-        <input type="text" id="equipment" placeholder="Equipment Name" required>
-        <input type="text" id="serialno" placeholder="serial number" required>
-        <select id="floorno" aria-placeholder="floor number" required>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
-          <option value="4">Four</option>
-        </select>
-        <input type="text" id="briefdescription" placeholder="Enter a brief description">
-      
-        <input type="submit" value="Submit">
-      </form>
-    </div>
+<!--request form-->
+<div>
+    <form action="url" id="request">
+      <input type="text" id="equipment" placeholder="Equipment Name" required>
+      <input type="text" id="serialno" placeholder="serial number" required>
+      <select id="floorno" placeholder="floor number" required>
+        <!--value empty, disables the option when selected and hides it from list -->
+        <option value="" disabled selected hidden>Select floor number</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="4">Four</option>
+      </select>
+      <input type="text" id="briefdescription" placeholder="Enter a brief description">
+      <input type="submit" value="Submit">
+    </form>
+  </div>
     
-    </body>
-    </html>
+</body>
+</html>
