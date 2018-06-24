@@ -1,6 +1,7 @@
 body {
     background-color: #210A76;
 }
+/* navigation bar*/
 .navbar {
     list-style-type: none;
     margin: 30;
@@ -8,12 +9,13 @@ body {
     overflow: hidden;
     background-color: #210A76;
 }
-
+/*for all navigation bar items apart from the active*/
 #nav {
     float: right;
     font-size: 20px;
     font-family: cursive;
 }
+/*each of the items in navigation bar*/
 li a {
     display: block;
     color: white;
@@ -21,7 +23,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
+/*color changes when cursor moves over the navigation bar items except the active*/
 li :hover:not(.active) {
     background-color: rgb(72, 24, 185);
 }
@@ -30,11 +32,11 @@ li :hover:not(.active) {
     background-color: rgb(103, 184, 231);
 
 }
+/*highlighting currently active page*/
 #home{
     float: left;
     font-family: cursive;
     font-size: 35px;
-
 }
 
 table {
@@ -43,7 +45,7 @@ table {
     width: 100%;
     border: 1px solid black;
 }
-
+/*table*/
 th {
     background-color: #4CAF50;
 }

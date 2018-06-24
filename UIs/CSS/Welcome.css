@@ -4,28 +4,27 @@
     padding: 10px 0px 10px 20px;
     overflow: hidden;
 }
-/*for all navigation bar texts apart from the active*/
+/*for all navigation bar items apart from the active*/
 #nav {
     float: right;
     font-size: 20px;
 }
-/*each of the texts in navigation bar*/
+/*each of the items in navigation bar*/
 li a {
     display: block;
     color: #D0C5F9;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
 }
-/*color changes when cursor moves over the navigation bar texts except the active*/
+/*color changes when cursor moves over the navigation bar items except the active*/
 li :hover:not(.active) {
     background-color: rgb(72, 24, 185);
 }
 
 
 /*the Mtracker in navigation bar*/
-#home{
+#home {
     float: left;
     font-family: cursive;
     font-size: 30px;
@@ -33,9 +32,8 @@ li :hover:not(.active) {
 /*highlighting currently active page*/
 
 .active {
-        background-color: rgb(31, 121, 173);
-    
-    }
+    background-color: rgb(31, 121, 173);
+}
 
 /*for entire background color*/
 body{

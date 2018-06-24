@@ -35,17 +35,19 @@ li :hover:not(.active) {
 .active {
         background-color: rgb(31, 121, 173);
     }
-
+/*for the entire body*/
 body{
     background: #210A76;
     font-family: cursive;
     text-align: center; 
 }
+/*the paragraph and heading*/
 h2, p {
     font-family: cursive;
     color: beige;
     font-size: 20px;
 }
+/* the form */
 #register-form {
     margin: 40px 40px 70px 400px;
     width: 300px;
@@ -74,3 +76,6 @@ input {
     margin: 0px 10px 100px 40px;
 
  } 
+ #signin { 
+    color: rgb(17, 146, 17);     
+ }
